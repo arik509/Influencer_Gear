@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Influencer Gear</title>
+    <link rel="stylesheet" href="tailwind.css">
 </head>
 
 <body>
@@ -36,9 +37,10 @@
                 Prebook Now
               </button>
             </div>
-            <div class="order-1 lg:order-2">
-              <img src="images/main-camera.png" alt="Main Camera" class="w-full max-w-md" />
-            </div>
+            <div class="order-1 lg:order-2 bg-cover bg-center relative" style="background-image: url('images/Circle\ design.svg');">
+                <img src="images/main-camera.png" alt="Main Camera" class="relative z-10 w-full max-w-md mx-auto" />
+              </div>
+              
           </div>
           
         <div class="mx-44 my-20 flex justify-between flex-wrap gap-8 max-w-3xs
@@ -52,6 +54,97 @@
             <img class="max-w-12 lg:max-w-28" src="logos/Target.svg" alt="">
         </div>
     </header>
+
+    <main>
+        <section>
+            <h1 class="text-center text-3xl font-semibold mb-[50px] ">
+                Popular Collection
+            </h1>
+
+            <div class="mx-auto lg:mx-24 w-[340px] grid grid-cols-1 place-items-center lg:grid-cols-3 lg:w-5xl lg:gap-7">
+
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="p-3.5 shadow-[0_0_40px_rgba(0,0,0,0.15)] max-w-[320px] rounded-[5px]">
+                    <img src="images/tripod.png" alt="">
+                    <p class="text-3xl mt-[6px]">Flex Tripod</p>
+                    <p class="text-2xl mt-[6px]">$50.48</p>
+                    <p class="text-[14px] mt-[6px]">Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col max-w-100% lg:max-w-6xl mx-1 lg:mx-[80px]
+        lg:flex-row gap-[30px] lg:gap-[96px] my-[150px] items-center">
+            <div class="order-1 lg:order-2">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="order-1 lg:order-2 px-4 text-center lg:text-start ">
+                <h3 class="font-bold text-4xl mb-6">Featured products at one place</h3>
+                <p class="font-bold mb-6 max-w-[500px] text-gray-500">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <div class="flex justify-center lg:justify-start">
+                    <p class="bg-pink-600 w-[150px] px-[24px] py-[10px] text-white font-bold">
+                      Join Now
+                    </p>
+                  </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
