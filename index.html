@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Influencer Gear</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar mr-32 ml-32 mt-20 flex justify-between">
+            <h5 class="logo font-bold text-2xl">
+                Influencer products
+              </h5>
+              
+            <div>
+                <ul class="font-semibold justify-between hidden lg:flex">
+                    <li class="ml-6">Home</li>
+                    <li class="ml-6">Products</li>
+                    <li class="ml-6">Sign Up</li>
+                    <li class="ml-6">Log in</li>
+                    <li class="ml-6">icon</li>
+                     <li class="ml-6">icon</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="banner mx-12 lg:mx-32 mt-20 flex flex-col lg:flex-row justify-between gap-8 lg:gap-32 items-center">
+            <div class="order-2 lg:order-1 text-center lg:text-start">
+              <h1 class="text-5xl font-bold">Start your Journey as Influencer</h1>
+              <p class="font-semibold mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.
+              </p>
+              <button class="bg-pink-600 rounded-full px-6 py-2.5 text-white font-bold mt-4">
+                Prebook Now
+              </button>
+            </div>
+            <div class="order-1 lg:order-2">
+              <img src="images/main-camera.png" alt="Main Camera" class="w-full max-w-md" />
+            </div>
+          </div>
+          
+        <div class="mx-44 my-20 flex justify-between flex-wrap gap-8 max-w-3xs
+        lg:flex-nowrap lg:max-w-6xl ">
+            <img class="max-w-12 lg:max-w-28" src="logos/Alibaba.svg" alt="">
+            <img class="max-w-12 lg:max-w-28" src="logos/Amazon.svg" alt="">
+            <img class="max-w-12 lg:max-w-28" src="logos/Daraz.pk Logo.svg" alt="">
+            <img class="max-w-12 lg:max-w-28" src="logos/Ebay.svg" alt="">
+            <img class="max-w-12 lg:max-w-28" src="logos/Rakuten.svg" alt="">
+            <img class="max-w-12 lg:max-w-28" src="logos/Walmart.svg" alt="">
+            <img class="max-w-12 lg:max-w-28" src="logos/Target.svg" alt="">
+        </div>
+    </header>
 </body>
+
 </html>
